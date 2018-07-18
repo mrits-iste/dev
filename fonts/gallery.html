@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Gallery</title>
+		<meta name="description" content="Scattered Polaroids Gallery: A flat-style take on a Polaroid gallery" />
+		<meta name="keywords" content="scattered polaroids, image gallery, javascript, random rotation, 3d, backface, flat design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.min.js"></script>
+	</head>
+	<body>
+		
+			
+			<section id="photostack-1" class="photostack photostack-start">
+				<div>
+					<figure>
+						<img src="images/an1.jpg" alt="img01"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/an2.jpg" alt="img02"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/an3.jpg" alt="img03"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/an4.jpg" alt="img04"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/an5.jpg" alt="img05"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/an6.jpg" alt="img06"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/an7.jpg" alt="img07"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/an8.jpg" alt="img08"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/an9.jpg" alt="img09"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/an10.jpg" alt="img10"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/an11.jpg" alt="img11"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/an12.jpg" alt="img12"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/an13.jpg" alt="img13"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/no1.jpg" alt="img14"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/no2.jpg" alt="img15"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<img src="images/no3.JPG" alt="img16"/>
+						<figcaption>
+							<h2 class="photostack-title"></h2>
+						</figcaption>
+					</figure>
+				</div>
+			</section>
+			</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/photostack.js"></script>
+		<script>
+			// [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+			
+			new Photostack( document.getElementById( 'photostack-1' ), {
+				callback : function( item ) {
+					//console.log(item)
+				}
+			} );
+			
+		</script>
+	</body>
+</html>
